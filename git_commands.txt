@@ -1,0 +1,73 @@
+GIT COMMANDS USED IN THE ASSIGNMENT
+
+1. git init -b main
+Initializes a new Git repository with main as the initial branch.
+
+2. git status
+Displays the current repository state and modified or untracked files.
+
+3. git add .
+Stages all changes in the current directory for committing.
+
+4. git add index.html
+Stages changes made to index.html.
+
+5. git add about.html
+Stages changes made to about.html.
+
+6. git add .gitignore
+Stages the .gitignore file.
+
+7. git commit -m "message"
+Creates a commit containing staged changes with the specified message.
+
+8. git log --oneline
+Displays the commit history in a compact format.
+
+9. git log --oneline -3
+Displays the latest three commits.
+
+10. git log --oneline -6
+Displays the latest six commits.
+
+11. git branch feature
+Creates a new branch named feature.
+
+12. git branch
+Lists all local branches and identifies the active branch.
+
+13. git switch feature
+Switches to the feature branch.
+
+14. git switch main
+Switches back to the main branch.
+
+15. git diff
+Displays differences between working files and the last committed version.
+
+16. git merge feature
+Merges changes from feature into the currently active branch.
+
+17. git log --oneline --graph --all
+Displays commit history with branch relationships.
+
+18. git check-ignore -v application.log temp/temporary.txt
+Displays the .gitignore rules responsible for ignoring specified files.
+
+19. git revert HEAD
+Creates a new commit that reverses the changes introduced by the latest commit.
+
+20. git remote add origin URL
+Connects the local repository to a remote GitHub repository.
+
+21. git branch -M main
+Renames the current branch to main.
+
+22. git push -u origin main
+Pushes the main branch to GitHub and establishes upstream tracking.
+
+23. git push -u origin feature
+Pushes the feature branch to GitHub and establishes upstream tracking.
+
+24. git remote -v
+Displays configured remote repository URLs.
